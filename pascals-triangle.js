@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const rows = (num) => {
+function pascaltriangle(num) {
     let finalArr = [];
     if (num == 0) {
         return [];
